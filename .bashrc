@@ -134,5 +134,11 @@ if ! shopt -oq posix; then
   fi
 fi
 
+# Add CUDA to PATH
 export PATH=$PATH:/usr/local/cuda-12.6/bin
+
+# Activate Rust environment
 . "$HOME/.cargo/env"
+
+# Common Python virtualenv
+alias venv-s="source ~/Development/venv-s/bin/activate"
