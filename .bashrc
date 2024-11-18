@@ -142,3 +142,4 @@ export PATH=$PATH:/usr/local/cuda-12.6/bin
 
 # Common Python virtualenv
 alias venv-s="source ~/Development/venv-s/bin/activate"
+alias venv="source ./.venv/bin/activate"
